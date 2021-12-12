@@ -54,6 +54,7 @@ namespace Employee
                 }
                 Console.WriteLine();
                 Console.WriteLine("Enter the name of the worker to see the characteristic: ");
+                Console.WriteLine(workers);
                 var choice = Console.ReadLine();
                 Console.WriteLine();
                 foreach (Worker worker in workers)
